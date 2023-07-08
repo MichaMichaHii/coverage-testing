@@ -15,7 +15,7 @@ import {
     it('should return true if input is an object', () => {
       const result = isObject({});
       expect(result).toBe(true);
-    });
+    }); 
   
     it('should return false if input is not an object', () => {
       const result = isObject('string');
