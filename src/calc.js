@@ -1,4 +1,5 @@
-const cacl = (number1, number2, operator) => {
+const calc = (number1, number2, operator) => {
+  let result;
   switch (operator) {
     case "+": {
       result = number1 + number2;
@@ -10,7 +11,7 @@ const cacl = (number1, number2, operator) => {
     }
     case "*": {
       result = number1 * number2;
-      return `${number1} - ${number2} = ${result}`;
+      return `${number1} * ${number2} = ${result}`;
     }
     case "/": {
       result = number1 / number2;
@@ -21,3 +22,4 @@ const cacl = (number1, number2, operator) => {
     }
   }
 };
+export default calc;
