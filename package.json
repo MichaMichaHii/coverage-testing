@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "test:coverage": "jest --coverage",
-    "test:coverage-info": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "test:coverage": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
